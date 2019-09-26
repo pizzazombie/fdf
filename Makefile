@@ -6,7 +6,7 @@
 #    By: dholiday <dholiday@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/08/13 14:06:41 by dholiday          #+#    #+#              #
-#    Updated: 2019/08/30 16:40:53 by dholiday         ###   ########.fr        #
+#    Updated: 2019/09/05 14:08:49 by dholiday         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,7 +35,7 @@ $(OBJ) : ./fdf.h
 $(MLX) :
 	make -C $(MLXPATH)
 
-$(MAIN) :  $(MLX) $(OBJ) $(LIBFT)
+$(FDF) :  $(MLX) $(OBJ) $(LIBFT)
 		gcc $(FLAGS) -I. -I$(LIBFTPATH) -Iinc  $(LIBFT) $(OBJ) -o $(FDF)
 
 clean:
