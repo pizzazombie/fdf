@@ -1,7 +1,7 @@
 # fdf
 School 21 project: 3D Wireframe Viewer
 
-![42.fdf map](/fdf_screenshot)
+![42.fdf map](/fdf_screenshot.png)
 
 _At the [wiki-pages](../../wiki) of project you can find detailed explanations and tips._
 
